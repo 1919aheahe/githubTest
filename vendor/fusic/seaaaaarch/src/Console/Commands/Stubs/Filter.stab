@@ -1,0 +1,14 @@
+<?php
+namespace App\Search\Filter;
+
+use Search\Filter\Filter;
+use Search\Filter\FilterInterface;
+
+class DummyClass extends Filter implements FilterInterface {
+    protected $defaultOptions = [];
+
+    public function process($builder, $field, $value)
+    {
+        //
+    }
+}
